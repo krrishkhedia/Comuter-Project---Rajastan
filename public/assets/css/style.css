@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(background.jpg);
+    background-size: cover;
+    box-shadow: 0px 5px 10px rgba(116,91,63,1);
+    height: 100vh;
+    background-position: center;
+}
+
+.logo{
+    border: #fff solid 1px;
+}
+
+.navbar{
+    border-radius: 24px;
+    transition: 0.5s ease;
+}
+
+.navbar:hover{
+    background-color: #fff;
+    color: #000000;
+
+}
+
+.navbar:hover a{
+    color: #000000;
+}
+
+.navbar a{
+    text-decoration: none;
+    /* color: #fff; */
+    padding: 8px 15px;
+}
+
+.home_title{
+    line-height: 15px;
+}
+
+/* .home-title{
+    margin-top: 200px;
+    margin-left: 75px;
+    color: #fff;
+    font-size: 50px;
+}  */
+
+/* .subtitle{
+    margin-left: 75px;
+    color: #fff;
+    font-size: 50px;
+} */
+
+/* .title{
+    font-size: 35px;
+} */
+
+/* .explore{
+    margin-left: 75px;
+} */
+
+.section{
+    margin-top: 5px;
+    padding-top: 5px;
+    height: 100vh;
+} 
+
+.section1{
+    /* padding-top: 25px;
+    background-color: #f7f2f2;
+    padding-bottom: 25px; */
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* .listofsanc{
+    border: 1px solid #000000;
+} */
+
+/* .list{
+    margin-bottom: 25px;
+} */
+  
+.contact__inputs{
+    width: 95%;
+    padding: 16px;
+    border: none;
+    background-color: #eae7e6;
+    border-radius: 8px;
+}
+
+.contact_form ::placeholder{
+    color: #662616;
+    font-family: Century Gothic;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.contact__button{
+    border: none;
+    font-family: Century Gothic;
+    font-size: .938rem;
+    cursor: pointer;
+}
+
+.button{
+    display: inline-block;
+    background-color: #d44343;
+    color: #fffafa;
+    padding: 16px 32px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: .7s;
+}
+
+.button:hover{
+    background-color: #4b2923;
+}
+
+/* .contact_form{
+    margin: 55px;
+    padding-right: 250px;
+    padding-left: 250px;
+} */
+
+.contact_section{
+    height: 100vh;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    margin-block-start: 0.17em!important;
+    margin-block-end: 0.47em!important;
+}
